@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Braden Hancock</title>
+  <title>Braden Hancock - Home</title>
 
   <meta name="author" content="Braden Hancock" />
   <meta name="description" content="Braden Hancock Personal Portfolio" />
@@ -31,7 +31,7 @@
   <div class="navbar navbar-default navbar-fixed-top" id="site_nav">
     <div class="container">
       <div class="row">
-        <div class="col-md-10 col-md-offset-1">
+        <div class="col-md-12">
           <div class="navbar-header">
             <a href="/" class="navbar-brand">Braden Hancock</a>
             <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
@@ -80,7 +80,7 @@
 
   <div class="container">
     <div class="row">
-      <div class="col-md-2 col-md-offset-1 vcenter idxHdr">
+      <div class="col-md-2 vcenter">
         <a href="/images/braden_hancock_2016_square.jpg">
                   <img src="/images/braden_hancock_2016_square.jpg"
                     width="300" height="300"
@@ -88,31 +88,36 @@
                     alt="Braden Hancock"/>
                   </a>
       </div>
-      <div class="col-md-6 col-md-offset-2 vcenter idxHdr">
-        <div style='font-size: 2em; color: #4582ec; font-weight: bold; padding-bottom: 0.3em;'>Braden Hancock</div>
+      <div class="col-md-7 col-md-offset-2 vcenter bio_header">
+        <div style='font-size: 2em; color: #4582ec; font-weight: bold; padding-bottom: 0.3em;'>
+          Braden Hancock</div>
         <div style='font-size: 1.2em; padding-bottom: 0.3em;'>
           Ph.D. Candidate - Machine Learning
         </div>
         <!-- <div style='font-size: 1.0em; padding-top: 0.3em;'>
           bradenjh<span style="display:none">foo</span>@cs.stanford.edu
         </div> -->
-        <div style='font-size: 1.0em; margin-top: 2.0em; padding-bottom: 0.3em;'>
-          Bio coming soon...
+        <div class="bio_body">
+          I'm a third-year Computer Science Ph.D. student and NSF Fellow at Stanford University. 
+          My goal is to make it possible for anyone–regardless of programming ability or 
+          machine learning expertise–to create state-of-the-art machine learning
+          systems in new domains in hours instead of months. 
         </div>
-        <!-- <div style='font-size: 1.1em'>
-          <a href="http://cs.stanford.edu">Computer Science</a>
+        <div class="bio_body">
+          <strong>Research interests</strong>: 
+          <br/> machine learning, weak supervision, information extraction, program synthesis
+          <!-- More specifically, I am interested in rich supervision for more efficient
+          training of machine learning algorithms and developing techniques for robustly
+          aggregating collections of noisy supervision resources. -->
         </div>
-        <div style='font-size: 1.1em'>
-          <a href="http://www.stanford.edu/">Stanford University</a>
-        </div> -->
         <br/>
       </div>
     </div>
 
     <div class="row">
-      <div class="col-md-10 col-md-offset-1">
+      <div class="col-md-11">
 
-        <h3 id="education">Education</h3>
+        <h3 id="education" class="section_header">Education</h3>
 
         <div class="affiliation">
           <div class="row">
@@ -123,10 +128,12 @@
               </div>
             </div>
             <div class="col-md-8">
-              <strong>Stanford University</strong>
-              <br/>Ph.D. Computer Science (Jun. 2020)
-              <br/>Advisors: Chris Ré, Percy Liang
-              <br/>Machine Learning Emphasis (GPA 4.00)
+              <div class="affiliation_title">Stanford University</div>
+              <div class="affiliation_body">
+                Ph.D. Computer Science (Jun. 2020)
+                <br/>Advisor: <a href="https://cs.stanford.edu/people/chrismre/">Chris Ré</a>
+                <br/>Machine Learning Emphasis (GPA 4.00)
+              </div>
             </div>
           </div>
         </div>
@@ -140,16 +147,18 @@
               </div>
             </div>
             <div class="col-md-8">
-              <strong>Brigham Young University</strong>
-              <br/>B.S. Mechanical Engineering, Mathematics Minor
-              <br/>Advisor: Chris Mattson
-              <br/>Valedictorian, <i>summa cum laude</i> (GPA 4.00)
+              <div class="affiliation_title">Brigham Young University</div>
+              <div class="affiliation_body">
+                B.S. Mechanical Engineering, Mathematics Minor
+                <br/>Advisor: <a href="https://me.byu.edu/faculty/christophermattson">Chris Mattson</a>
+                <br/>Valedictorian, <i>summa cum laude</i> (GPA 4.00)
+              </div>
             </div>
           </div>
         </div>
 
 
-        <h3 id="experience">Experience</h3>
+        <h3 id="experience" class="section_header">Experience</h3>
         <!-- Stanford -->
         <div class="affiliation">
           <div class="row">
@@ -159,14 +168,22 @@
               </div>
             </div>
             <div class="col-md-10">
-              <strong>Stanford University</strong>
-              <br/> 2015-Present
-              <br/>Groups: Stanford InfoLab, Stanford NLP Group
-              <br/>Mentors: Chris Ré, Percy Liang
-              <br/>Topics: Weak supervision, learning form natural language, information extraction
+              <div class="affiliation_title">Stanford University</div>
+              <div class="affiliation_body">
+                2015-Present
+                <br/>Groups: 
+                <a href="http://dawn.cs.stanford.edu/">Stanford DAWN</a>,
+                <a href="https://nlp.stanford.edu/">Stanford NLP Group</a>, 
+                Stanford InfoLab
+                <br/>Mentors: 
+                  <a href="https://cs.stanford.edu/people/chrismre/">Chris Ré</a>, 
+                  <a href="https://cs.stanford.edu/~pliang/">Percy Liang</a>
+                <br/>Topics: Weak supervision, natural language supervision, information extraction
+              </div>
             </div>
           </div>
         </div>
+
         <!-- Google -->
         <div class="affiliation">
           <div class="row">
@@ -176,14 +193,22 @@
               </div>
             </div>
             <div class="col-md-10">
-              <strong>Google</strong>
-              <br/> Summer 2017
-              <br/>Groups: Google Brain, Google Search
-              <br/>Mentors: Hongrae Lee, Cong Yu, Quoc Le
-              <br/>Topics: Abstractive summarization of semi-structured content, recursive neural networks
+              <div class="affiliation_title">Google</div>
+              <div class="affiliation_body">
+                Summer 2017
+                <br/>Groups: 
+                  <a href="https://research.google.com/teams/brain/">Google Brain</a>,
+                  Google Search
+                <br/>Mentors: 
+                  <a href="https://research.google.com/pubs/HongraeLee.html">Hongrae Lee</a>,
+                  <a href="https://sites.google.com/site/congyu/home">Cong Yu</a>,
+                  <a href="http://cs.stanford.edu/~quocle/">Quoc Le</a>
+                  <br/>Topics: Abstractive summarization of semi-structured content, recursive neural networks
+                </div>
+              </div>
             </div>
           </div>
-        </div>
+
         <!-- MIT Lincoln Laboratory -->
         <div class="affiliation">
           <div class="row">
@@ -191,16 +216,22 @@
               <div class="logo">
                 <img src="/images/logos/mitll.png">
               </div>
-            </div>
-            <div class="col-md-10">
-              <strong>MIT Lincoln Laboratory</strong>
-              <br/> Summers 2014-2015
-              <br/>Group: Computing & Analytics
-              <br/>Mentors: Vijay Gadepally, Jeremy Kepner
-              <br/>Topics: Recommender systems for Department of Defense applications, cryptography
+              </div>
+              <div class="col-md-10">
+                <div class="affiliation_title">MIT Lincoln Laboratory</div>
+                <div class="affiliation_body">
+                  Summers 2014-2015
+                  <br/>Group: 
+                    <a href="https://ll.mit.edu/mission/cybersec/cybersec.html">Computing & Analytics</a>
+                  <br/>Mentors: 
+                    <a href="https://vijayg.mit.edu/">Vijay Gadepally</a>,
+                    <a href="http://www.mit.edu/~kepner/">Jeremy Kepner</a>
+                <br/>Topics: Recommender systems for Department of Defense applications, cryptography
+              </div>
             </div>
           </div>
         </div>
+
         <!-- Johns Hopkins -->
         <div class="affiliation">
           <div class="row">
@@ -210,14 +241,20 @@
               </div>
             </div>
             <div class="col-md-10">
-              <strong>Johns Hopkins University</strong>
-              <br/> Summer 2013
-              <br/>Group: Human Language Technology Center of Excellence
-              <br/>Mentors: Mark Dredze, Glen Coppersmith
-              <br/>Topics: Public health trend extraction from social media, topic modeling
+              <div class="affiliation_title">Johns Hopkins University</div>
+              <div class="affiliation_body">
+                Summer 2013
+                <br/>Group: 
+                  <a href="https://hltcoe.jhu.edu/">Human Language Technology Center of Excellence</a>
+                <br/>Mentors: 
+                  <a href="http://www.cs.jhu.edu/~mdredze/">Mark Dredze</a>,
+                  <a href="http://glencoppersmith.com/">Glen Coppersmith</a>
+                <br/>Topics: Public health trend extraction from social media, topic modeling
+              </div>
             </div>
           </div>
         </div>
+
         <!-- BYU -->
         <div class="affiliation">
           <div class="row">
@@ -227,14 +264,19 @@
               </div>
             </div>
             <div class="col-md-10">
-              <strong>Brigham Young University</strong>
-              <br/> 2011-2015
-              <br/>Group: Design Exploration Research Group
-              <br/>Mentor: Chris Mattson
-              <br/>Topics: Multi-objective optimization, design space exploration
+              <div class="affiliation_title">Brigham Young University</div>
+              <div class="affiliation_body">
+                2011-2015
+                <br/>Group: 
+                  <a href="http://design.byu.edu/">Design Exploration Research Group</a>
+                <br/>Mentor: 
+                  <a href="https://me.byu.edu/faculty/christophermattson">Chris Mattson</a>
+                <br/>Topics: Multi-objective optimization, design space exploration
+              </div>
             </div>
           </div>
         </div>
+
         <!-- AFRL -->
         <div class="affiliation">
           <div class="row">
@@ -244,151 +286,282 @@
               </div>
             </div>
             <div class="col-md-10">
-              <strong>Air Force Research Laboratory</strong>
-              <br/> Summer 2011
-              <br/>Group: Turbine Engine Division
-              <br/>Mentor: John Clark
-              <br/>Topics: Evolutionary algorithms for optimization, turbine engine simulation
+              <div class="affiliation_title">Air Force Research Laboratory</div>
+              <div class="affiliation_body">
+                Summer 2011
+                <br/>Group: 
+                  <a href="http://www.wpafb.af.mil/afrl/rq/">Turbine Engine Division</a>
+                <br/>Mentor: John Clark
+                <br/>Topics: Evolutionary algorithms for optimization, turbine engine simulation
+              </div>
             </div>
           </div>
         </div>
 
 
-        <h3 id="research">Research</h3>
-        Coming Soon...
+        <h3 id="research" class="section_header">Research</h3>
 
-        <!-- <div>
-          <div class="wsite-multicol">
-            <div class="wsite-multicol-table-wrap" style="margin:0 -15px;">
-              <table class="wsite-multicol-table">
-                <tbody class="wsite-multicol-tbody">
-                  <tr class="wsite-multicol-tr">
-                    <td class="wsite-multicol-col" style="width:40%; padding:0 15px;">
-                      <div>
-                        <div class="wsite-image wsite-image-border-none " style="padding-top:10px;padding-bottom:10px;margin-left:0;margin-right:0;text-align:center">
-                          <a>
-                            <img src="/uploads/3/4/4/6/34464733/published/209126309.png?1493688470" alt="Picture" style="width:190;max-width:100%" />
-                          </a>
-                          <div style="display:block;font-size:90%"></div>
-                        </div>
+        <div style="margin:0 -15px;">
+          <table>
+            <tbody>
+
+              <!-- Babble Labble -->
+              <tr class="research">
+                <td class="research_img_cell">
+                    <a><img class="research_img"
+                        src="/research/babble/babble.png"/>
+                    </a>
+                </td>
+                <td class="research_txt_cell">
+                    <div class="research_txt_title">Babble Labble: Learning from Natural Language Explanations</div>
+                    <div class="research_txt_body">
+                      We show that by collecting explanations for <i>why</i> annotators 
+                      give the labels they do and parsing these into executable functions,
+                      we can generate large "good enough" training sets from unlabeled data
+                      and improve downstream discriminative model performance.
+                    </div>
+                    <div class="research_venue">In progress</div>
+                    <div class="research_links">
+                      [<a href="https://hazyresearch.github.io/snorkel/blog/babble_labble.html" target="_blank">blog</a>]
+                      [<a href="/research/babble/Babble DAWN retreat Apr 2017.pptx" target="_blank">slides</a>]
+                      [paper in progress</a>]
+                    </div>
+                </td>
+              </tr>
+
+              <!-- Fonduer -->
+              <tr class="research">
+                <td class="research_img_cell">
+                    <a><img class="research_img"
+                        src="/research/fonduer/fonduer.png"/>
+                    </a>
+                </td>
+                <td class="research_txt_cell">
+                    <div class="research_txt_title">Fonduer: Knowledge Base Construction from Richly Formatted Data</div>
+                    <div class="research_txt_body">
+                      We introduce a information extraction framework that utilizes 
+                      multiple representations of the data (structural, tabular,
+                      visual, and textual) to achieve state-of-the-art performance
+                      in four real-world extraction taks. Our framework is currently 
+                      in use commercially at Alibaba and with law enforcement agencies 
+                      fighting online human trafficking.
+                    </div>
+                    <div class="research_venue">arXiv pre-print 2017</div>
+                    <div class="research_links">
+                        [<a href="https://arxiv.org/pdf/1703.05028" target="_blank">pdf</a>]
+                        [<a href="https://hazyresearch.github.io/snorkel/blog/fonduer.html" target="_blank">blog</a>]
+                    </div>
+                </td>
+              </tr>
+
+              <!-- Snorkel -->
+              <tr class="research">
+                  <td class="research_img_cell">
+                      <a><img class="research_img"
+                          src="/research/snorkel/snorkel.png"/>
+                      </a>
+                  </td>
+                  <td class="research_txt_cell">
+                      <div class="research_txt_title">Snorkel: A System for Fast Training Data Creation</div>
+                      <div class="research_txt_body">
+                        Snorkel is a system for rapidly creating, modeling, and 
+                        managing training data. It is the flagship implementation 
+                        of the new data programming paradigm for supporting weak 
+                        supervision resources. Development is ongoing, with 
+                        collaborators and active users at over a dozen major 
+                        technical and medical organizations. As one of the core
+                        contributors to Snorkel, I have implemented many of my 
+                        other research products as extensions to this framework.
                       </div>
-                    </td>
-                    <td class="wsite-multicol-col" style="width:60%; padding:0 15px;">
-                      <div class="paragraph">
-                        <font size="4" style="color:rgb(98, 98, 98)"><strong>Babble Labble: Learning from Natural Language Explanations</strong></font><br />
-                        <font style="color:rgb(98, 98, 98)">
-                          <u>Braden Hancock</u>, Paroma Varma, Christopher Ré</font><br />(In Progress)
-                        <br />
-                        <font style="color:rgb(98, 98, 98)">
-                          [<a href="http://cs.stanford.edu/people/ranjaykrishna/densevid/" target="_blank">blog</a>]
-                          [<a href="https://arxiv.org/abs/1705.00754" target="_blank">pdf</a>]
-                          [<a href="http://cs.stanford.edu/people/ranjaykrishna/densevid/captions.zip" target="_blank">dataset</a>]
-                          [<a href="https://github.com/ranjaykrishna/densevid_eval" target="_blank">eval code</a>]
-                          [<a href="http://activity-net.org/challenges/2017/people.html" target="_blank">challenge</a>]
-                        </font>
+                      <div class="research_links">
+                          [<a href="https://hazyresearch.github.io/snorkel/" target="_blank">website</a>]
+                          [<a href="https://github.com/HazyResearch/snorkel" target="_blank">code</a>]
                       </div>
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-          </div>
-        </div> -->
+                  </td>
+                </tr>
+
+              <!-- GwasKB -->
+              <tr class="research">
+                <td class="research_img_cell">
+                    <a><img class="research_img"
+                        src="research/gwaskb/gwaskb.png"/>
+                    </a>
+                </td>
+                <td class="research_txt_cell">
+                    <div class="research_txt_title">A Machine-Compiled Database of Genome-Wide Association Studies</div>
+                    <div class="research_txt_body">
+                      Using the multi-modal parsing and extraction tools from Fonduer and learning and inference tools from
+                      Snorkel, we construct a knowledge base of genotype/phenotype associations extracted from the text
+                      and tables in ~600 open-access papers from PubMed Central. Our system expands existing manually
+                      curated databases by approximately 20% with 92% precision.
+                    </div>
+                    <div class="research_venue">Bio-Ontologies 2017</div>
+                    <div class="research_links">
+                        [<a href="https://drive.google.com/file/d/0B4y0zfdRviKsRW5Zd0FBVlFIa3c/view" target="_blank">pdf</a>]
+                    </div>
+                </td>
+              </tr>
+
+              <!-- Topic Models -->
+              <tr class="research">
+                <td class="research_img_cell">
+                    <a><img class="research_img"
+                        src="research/topics/topics.png"/>
+                    </a>
+                </td>
+                <td class="research_txt_cell">
+                    <div class="research_txt_title">Collective Supervision of Topic Models for Predicting Surveys with Social Media</div>
+                    <div class="research_txt_body">
+                        We use topic models to correlate social media messages
+                        with survey outcomes and to provide an interpretable
+                        representation of the data. Rather than rely on
+                        fully unsupervised topic models, we use existing aggregated
+                        survey data to inform the inferred topics, a class
+                        of topic model supervision referred to as collective supervision.
+                    </div>
+                    <div class="research_venue">AAAI 2016</div>
+                    <div class="research_links">
+                        [<a href="http://cmci.colorado.edu/~mpaul/files/aaai16_collective.pdf" target="_blank">pdf</a>]
+                        [<a href="https://github.com/abenton/collsuptmdata" target="_blank">data</a>]
+                    </div>
+                </td>
+              </tr>
+
+              <!-- Recommender Systems -->
+              <tr class="research">
+                <td class="research_img_cell">
+                    <a><img class="research_img"
+                        src="research/recsys/recsys.png"/>
+                    </a>
+                </td>
+                <td class="research_txt_cell">
+                    <div class="research_txt_title">Recommender Systems for the Department of Defense and Intelligence Community</div>
+                    <div class="research_txt_body">
+                      With an internal committee of 20 MIT and DoD researchers, 
+                      I spearheaded the construction of this report, which 
+                      formalizes the components and complexities of recommender systems
+                      and surveys their existing and potential uses in the 
+                      Department of Defense and U.S. Intelligence community.
+                    </div>
+                    <div class="research_venue">MITLL Journal 2016</div>
+                    <div class="research_links">
+                        [<a href="https://ll.mit.edu/publications/journal/pdf/vol22_no1/22_1_6_Gadepally.pdf" target="_blank">pdf</a>]
+                    </div>
+                </td>
+              </tr>
+
+              <!-- L-Dominance -->
+              <tr class="research">
+                <td class="research_img_cell">
+                    <a><img class="research_img"
+                        src="research/l_dominance/l_dominance.png"/>
+                    </a>
+                </td>
+                <td class="research_txt_cell">
+                    <div class="research_txt_title">L-dominance: An approximate-domination mechanism for adaptive resolution of Pareto frontiers</div>
+                    <div class="research_txt_body">
+                      We propose a mechanism called L-dominance (based on the 
+                      Lamé curve) which promotes adaptive resolution of solutions
+                      on the Pareto frontier for evolutionary multi-objective 
+                      optimization algorithms.
+                    </div>
+                    <div class="research_venue">SMO Journal, AIAA ASM 2015, Honors Thesis</div>
+                    <div class="research_award">Best Student Paper</div>
+                    <div class="research_links">
+                      [<a href="research/l_dominance/SMO 2015 - L-dom.pdf" target="_blank">pdf</a>]
+                      [<a href="research/l_dominance/LMOEA Slides - Thesis Defense.pptx" target="_blank">slides</a>]
+                    </div>
+                  </td>
+                </tr>
+                
+                <!-- SNP -->
+                <tr class="research">
+                  <td class="research_img_cell">
+                    <a><img class="research_img"
+                      src="research/asnp/asnp2.png"/>
+                    </a>
+                  </td>
+                  <td class="research_txt_cell">
+                    <div class="research_txt_title">Reducing Shock Interactions in a High Pressure Turbine via 3D Aerodynamic Shaping</div>
+                    <div class="research_txt_body">
+                      We show that the shock wave reflections inside a turbine 
+                      engine can be approximated by calculating the 3D surface 
+                      normal projections of the airfoils. Using a genetic algorithm,
+                      We produce superior airfoil geometries (with respect to 
+                      high cycle fatigue failure) four orders of magnitude faster 
+                      than the traditional CFD-based approach.
+                    </div>
+                    <div class="research_venue">AIAA Journal, AIAA ASM 2014</div>
+                    <div class="research_award">Best Student Paper</div>
+                    <div class="research_links">
+                      [<a href="research/asnp/AIAA JPP 2014 - ASNP.pdf" target="_blank">pdf</a>]
+                      [<a href="research/asnp/AIAA Shock Reflection Presentation.pptx" target="_blank">slides</a>]
+                    </div>
+                  </td>
+                </tr>
+                
+                <!-- SNC -->
+                <tr class="research">
+                  <td class="research_img_cell">
+                    <a><img class="research_img"
+                      src="research/snc/snc.png"/>
+                    </a>
+                  </td>
+                  <td class="research_txt_cell">
+                    <div class="research_txt_title">The Smart Normal Constraint Method for Directly Generating a Smart Pareto Set</div>
+                    <div class="research_txt_body">
+                      We introduce the Smart Normal Constraint (SNC) method, the 
+                      first method capable of directly generating a smart Pareto 
+                      set (a Pareto set in which the density of solutions varies
+                      such that regions of significant tradeoff have the greatest
+                      resolution). This is accomplished by iteratively updating 
+                      an approximation of the design space geometry, which is 
+                      used to guide subsequent searches in the design space.
+                    </div>
+                    <div class="research_venue">SMO Journal, AIAA MDO 2013</div>
+                    <div class="research_links">
+                      [<a href="SMO 2013 - SNC.pdf" target="_blank">pdf</a>]
+                      [<a href="research/snc/SNC - MDO Presentation.pptx" target="_blank">slides</a>]
+                      [<a href="https://www.youtube.com/watch?v=OqSdQV402Zw" target="_blank">video</a>]
+                    </div>
+                  </td>
+                </tr>
+
+              <!-- DMOP -->
+              <tr class="research">
+                <td class="research_img_cell">
+                  <a><img class="research_img"
+                    src="research/dmop/dmop.png"/>
+                  </a>
+                </td>
+                <td class="research_txt_cell">
+                  <div class="research_txt_title">Usage Scenarios for Design Space Exploration with a Dynamic Multiobjective Optimization Formulation</div>
+                  <div class="research_txt_body">
+                    We investigate three usage scenarios for formulation space 
+                    exploration, building on previous work that introduced a new
+                    way to formulate multi-objective problems, allowing a designer
+                    to change up update design objectives, constraints, and variables 
+                    in a fluid manner that promotes exploration.
+                  </div>
+                  <div class="research_venue">RiED Journal, ASME DETC 2012</div>
+                  <div class="research_award">Best Paper</div>
+                  <div class="research_links">
+                      [<a href="research/dmop/RiED 2013 - DMOP.pdf" target="_blank">pdf</a>]
+                  </div>
+                </td>
+              </tr>
 
 
 
-        <!-- 
-
-        <table class="table table-hover">
-
-          <tr>
-            <td class="col-md-3"><a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=7160058" target="_blank"><img src="images/publications/Harward2015.png" /></a>              </td>
-            <td>
-              <strong>Estimating Soft Processor Soft Error Sensitivity through Fault Injection</strong><br /> N. Harward,
-              M. Gardiner, <strong>L. Hsiao</strong>, and M. Wirthlin<br /> FCCM 2015<br /> [W1] [
-              <a href="javascript: none" onclick="$(&quot;#abs_Harward2015&quot;).toggle()">abs</a>] [
-              <a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=7160058" target="_blank">pdf</a>] <br />
-
-              <div id="abs_Harward2015" style="text-align: justify; display: none">
-                Soft processors are increasingly used on SRAM-based FPGAs for reliable computing systems. In a radiation environment like
-                space, the configuration memory used to configure a soft processor is sensitive to single event upsets (SEUs).
-                Tools are needed to evaluate and estimate the reliability of soft processors in these environments. Fault
-                injection is used to evaluate the configuration memory sensitivity of soft processor designs. This paper
-                describes our fault injection experiments and the sensitivity results on each soft processor experiment.
-                A suite of five benchmarks were executed on the MicroBlaze soft processor to measure the sensitivity of the
-                processor to the software being executed. In addition, several soft processors were evaluated on a Virtex-5
-                FPGA: MicroBlaze, LEON3, Arm Cortex-M0, OpenRISC, and PicoBlaze. For the software benchmarks, we find that
-                the sensitivity varies as much as 54%. For simple processor configurations running the Towers of Hanoi benchmark,
-                we measure as low as 7,116 sensitive bits for the PicoBlaze, and as high as 112,223 sensitive bits for the
-                Cortex M0.
-              </div>
-
-            </td>
-          </tr>
-
-
-          <tr>
-            <td class="col-md-3"><a href="https://link.springer.com/chapter/10.1007%2F978-3-319-14352-1_5" target="_blank"><img src="images/publications/Harward2014.png" /></a>              </td>
-            <td>
-              <strong>A Fault Injection System for Measuring Soft Processor Design Sensitivity on Virtex-5 FPGAs</strong><br
-              /> N. Harward, M. Gardiner, <strong>L. Hsiao</strong>, and M. Wirthlin<br /> FASA 2014<br /> [W2] [
-              <a href="javascript: none" onclick="$(&quot;#abs_Harward2014&quot;).toggle()">abs</a>] [
-              <a href="https://link.springer.com/chapter/10.1007%2F978-3-319-14352-1_5" target="_blank">pdf</a>] <br />
-
-              <div id="abs_Harward2014" style="text-align: justify; display: none">
-                This paper presents an FPGA fault injection system, a methodology for soft processor fault injection, and fault injection
-                experimental results for MicroBlaze and LEON3 soft processor designs. The Xilinx Radiation Test Consortium-Virtex
-                5 Fault Injector (XRTC-V5FI) was built to evaluate the configuration memory sensitivity of soft processor
-                designs. To overcome some of the challenges of soft processor fault injection, we designed the XRTC-V5FI
-                to be fast, flexible, and to fully cover all configuration memory bits. The minimum time to inject a full
-                bitstream is 28 minutes and the individual fault injection can be as fast as 49 microseconds. The LEON3 has
-                81.3 % more sensitive bits than the MicroBlaze, yet when normalized by the number of used slices, the MicroBlaze
-                is 26.2 % more sensitive than the LEON3.
-              </div>
-
-            </td>
-          </tr>
-
-
-        </table>
-
-        <h3 id="preprints-">Preprints <a href="https://github.com/lukehsiao/cv/blob/master/publications/preprint.bib"><i class="fa fa-code-fork" aria-hidden="true"></i></a></h3>
-
-        <table class="table table-hover">
-
-          <tr>
-            <td class="col-md-3"><a href="https://arxiv.org/abs/1703.05028" target="_blank"><img src="images/publications/wu2017fonduer.png" /></a>              </td>
-            <td>
-              <strong>Fonduer: Knowledge Base Construction from Richly Formatted Data</strong><br /> S. Wu, <strong>L. Hsiao</strong>,
-              X. Cheng, B. Hancock, T. Rekatsinas, P. Levis, and C. Ré<br /> arXiv 2017<br /> [P1] [
-              <a href="javascript: none" onclick="$(&quot;#abs_wu2017fonduer&quot;).toggle()">abs</a>] [
-              <a href="https://arxiv.org/abs/1703.05028" target="_blank">pdf</a>] <br />
-
-              <div id="abs_wu2017fonduer" style="text-align: justify; display: none">
-                We introduce Fonduer, a knowledge base construction (KBC) framework for richly formatted information extraction (RFIE), where
-                entity relations and attributes are conveyed via structural, tabular, visual, and textual expressions. Fonduer
-                introduces a new programming model for KBC built around a unified data representation that accounts for three
-                challenging characteristics of richly formatted data: (1) prevalent document-level relations, (2) multimodality,
-                and (3) data variety. Fonduer is the first KBC system for richly formatted data and uses a human-in-the-loop
-                paradigm for training machine learning systems, referred to as data programming. Data programming softens
-                the burden of traditional supervision by only asking users to provide lightweight functions that programmatically
-                assign (potentially noisy) labels to the input data. Fonduer's unified data model, together with data programming,
-                allows users to use domain expertise as weak signals of supervision that help guide the KBC process over
-                richly formatted data. We evaluate Fonduer on four real-world applications over different domains and achieve
-                an average improvement of 42 F1 points over the upper bound of state-of-the-art approaches. In some domains,
-                our users have produced up to 1.87x the number of correct entires compared to expert-curated public knowledge
-                bases. Fonduer scales gracefully to millions of documents and is used in both academia and industry to create
-                knowledge bases for real-world problems in many domains.
-              </div>
-
-            </td>
-          </tr> -->
+            </tbody>
+          </table>
+        </div>
 
       </div>
     </div>
-    <div class="col-md-10 col-md-offset-1">
+    <div class="col-md-11">
       <hr>
-      <p> Last updated on 23 Aug 2017. </p>
+      <p> Last updated on 24 Aug 2017. </p>
     </div>
   </div>
 

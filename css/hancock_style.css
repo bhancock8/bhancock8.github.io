@@ -1,14 +1,93 @@
+.section_header {
+    color:rgb(98, 98, 98);
+}
+
 .affiliation {
     padding-bottom: 20px;
     /* margin-bottom: 50px; */
+}
+
+.affiliation_title {
+    color:rgb(98, 98, 98);
+    font-weight: bold;
+    font-size: 1.15em;
+}
+
+.affiliation_body {
+    color:rgb(98, 98, 98);
+    font-weight: 300;
+}
+
+.bio_header {
+    text-align: center;
+    line-height: 1;
+    color:rgb(98, 98, 98);
+}
+
+.bio_body {
+    text-align: left;
+    font-weight: 300;
+    font-size: 1.0em; 
+    margin-top: 2.0em; 
+    padding-bottom: 0.3em;
+    color:rgb(98, 98, 98);
 }
 
 .logo {
     width: 100px;
     height: 100px;
     border: 0px;
-    /* margin: 3px; */
-    /* padding: 3px; */
-    /* border: 2px solid #eeeeee; */
-    /* max-width: 100%; */
-  }
+}
+
+.research {
+    margin-bottom:15px; /* Does this make a difference? */
+}
+
+.research_img_cell {
+    width:40%; 
+    padding:0;
+    padding-top:10px;
+    padding-bottom:10px;
+    margin-left:0;
+    margin-right:0;
+    text-align:center;
+}
+
+.research_img {
+    border: 0px;
+    max-height:200px;
+    max-width:300px;
+    height:auto;
+    width:auto;
+}
+
+.research_txt_cell {
+    text-align:top; /* Does this make a difference? */
+    width:60%; 
+    padding-bottom:20px;
+}
+
+.research_txt_title {
+    /* font-weight: bold; */
+    font-size: 1.15em;
+    /* font-weight:lighter; */
+    font-weight: 150;
+    color:rgb(98, 98, 98);
+}
+
+.research_txt_body {
+    font-weight: 300;
+    color:rgb(98, 98, 98); 
+}
+
+.research_links {
+    color:rgb(98, 98, 98); 
+}
+
+.research_venue {
+    color: #090;
+}
+
+.research_award {
+    color: #D21919;
+}
