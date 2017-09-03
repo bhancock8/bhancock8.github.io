@@ -25,6 +25,10 @@ img {
     line-height: 1;
 }
 
+.navbar{
+  background-color: #DFF2FF;
+}
+
 @media (max-width: 767px) {
     .idxHdr {
         width: 100%;
@@ -34,6 +38,7 @@ img {
 /* ensure that navbar doesn't break into 2 lines */
 @media (min-width:768px){
   .navbar .navbar-nav>li>a{
-    padding:8px 6px !important
+    padding:8px 6px !important;
+    background-color: #DFF2FF;
   }
 }
