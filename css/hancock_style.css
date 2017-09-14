@@ -24,11 +24,20 @@
     color:rgb(98, 98, 98);
 }
 
+.bio_email {
+    text-align: center;
+    font-weight: 300;
+    font-size: 1.0em; 
+    margin-top: 1.0em; 
+    /* padding-bottom: 0.3em; */
+    color:rgb(98, 98, 98);
+}
+
 .bio_body {
     text-align: left;
     font-weight: 300;
     font-size: 1.0em; 
-    margin-top: 2.0em; 
+    margin-top: 1.5em; 
     padding-bottom: 0.3em;
     color:rgb(98, 98, 98);
 }
