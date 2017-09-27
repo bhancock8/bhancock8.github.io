@@ -18,6 +18,31 @@
     font-weight: 300;
 }
 
+.award {
+    padding-bottom: 10px;
+}
+
+.award_title {
+    font-size: 1.15em;
+    font-weight: 150;
+    color:rgb(98, 98, 98);
+}
+
+.award_body {
+    color:rgb(98, 98, 98);
+    font-weight: 300;
+}
+
+.award_links {
+    color:rgb(98, 98, 98); 
+}
+
+.award_logo {
+    width: 80px;
+    height: 80px;
+    border: 0px;
+}
+
 .bio_header {
     text-align: center;
     line-height: 1;
@@ -29,7 +54,6 @@
     font-weight: 300;
     font-size: 1.0em; 
     margin-top: 1.0em; 
-    /* padding-bottom: 0.3em; */
     color:rgb(98, 98, 98);
 }
 
@@ -77,9 +101,7 @@
 }
 
 .research_txt_title {
-    /* font-weight: bold; */
     font-size: 1.15em;
-    /* font-weight:lighter; */
     font-weight: 150;
     color:rgb(98, 98, 98);
 }
