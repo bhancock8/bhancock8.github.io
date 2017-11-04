@@ -66,6 +66,15 @@
     color:rgb(98, 98, 98);
 }
 
+.news_body {
+    text-align: left;
+    font-weight: 300;
+    font-size: 0.9em; 
+    /* margin-top: 1.5em; 
+    padding-bottom: 0.3em; */
+    color:rgb(98, 98, 98);
+}
+
 .logo {
     width: 100px;
     height: 100px;
