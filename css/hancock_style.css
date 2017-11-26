@@ -18,6 +18,25 @@
     font-weight: 300;
 }
 
+.logo {
+    /* margin: 0 auto; */
+    width: 90px;
+    height: 90px;
+    border: 0px;
+}
+
+.btn-expand {
+    background-color:#4582ec;
+    margin-left: 5px;
+}
+
+[data-toggle="collapse"].collapsed .if-not-collapsed {
+    display: none;
+  }
+[data-toggle="collapse"]:not(.collapsed) .if-collapsed {
+    display: none;
+}
+
 .award {
     padding-bottom: 5px;
 }
@@ -73,12 +92,6 @@
     /* margin-top: 1.5em; 
     padding-bottom: 0.3em; */
     color:rgb(98, 98, 98);
-}
-
-.logo {
-    width: 100px;
-    height: 100px;
-    border: 0px;
 }
 
 .research {
