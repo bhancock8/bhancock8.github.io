@@ -114,15 +114,19 @@
             bradenjh<span style="display:none">foo</span>@cs.stanford.edu
         </div> -->
         <div class="bio_body">
-          I'm a third-year Computer Science Ph.D. Candidate and NSF Fellow at Stanford University. 
-          My goal is to make it possible for anyone–regardless of programming ability or 
-          machine learning expertise–to create state-of-the-art machine learning
-          systems in new domains in hours instead of months. 
+          I'm a third-year Computer Science Ph.D. Candidate and NSF Fellow at 
+          Stanford University. I research how to get supervision signal from 
+          a human into a model as quickly, easily, and efficiently as possible.
+          My ultimate goal is to make it possible for anyone—regardless of 
+          programming ability or machine learning expertise—to create 
+          state-of-the-art machine learning systems in new domains in 
+          hours instead of months. 
         </div>
         <div class="bio_body">
           <strong>Research interests</strong>: 
-          <br/> machine learning, weak supervision, learning from natural language, 
-          information extraction, semantic parsing, knowledge integration, program synthesis
+          <br/> machine learning systems, weak supervision, multi-task learning, 
+          training data creation, learning from natural language, 
+          information extraction, knowledge integration
           <!-- More specifically, I am interested in rich supervision for more efficient
           training of machine learning algorithms and developing techniques for robustly
           aggregating collections of noisy supervision resources. -->
@@ -138,6 +142,8 @@
         
         <div class="news_body" style="display: block;">
           <ul style="list-style-type:disc">
+            <li><strong>Mar. 2017</strong>: Presented QALF and Snorkel MeTaL at the 
+            Spring <a href="http://dawn.cs.stanford.edu/">Stanford DAWN</a> retreat in Santa Cruz.</li></br>
             <li><strong>Dec. 2017</strong>: The Stanford Statistical ML group has had an 
               incredible 2017 with 5 best paper awards! (NIPS, UAI, ICML, COLT, AAAI)</li></br>
             <li><strong>Dec. 2017</strong>: Presented <a href="https://www.youtube.com/watch?v=YBeAX-deMDg" target="_blank">Babble Labble</a> demo at NIPS 2017.</li></br>
@@ -182,7 +188,7 @@
                 <br/>Mentors: 
                   <a href="https://cs.stanford.edu/people/chrismre/">Chris Ré</a>, 
                   <a href="https://cs.stanford.edu/~pliang/">Percy Liang</a>
-                <br/>Topics: Weak supervision, natural language supervision, information extraction
+                <br/>Topics: Weak supervision, multi-task learning, information extraction
               </div>
             </div>
           </div>
@@ -205,7 +211,7 @@
                   <a href="https://research.google.com/pubs/HongraeLee.html">Hongrae Lee</a>,
                   <a href="https://sites.google.com/site/congyu/home">Cong Yu</a>,
                   <a href="http://cs.stanford.edu/~quocle/">Quoc Le</a>
-                  <br/>Topics: Abstractive summarization of semi-structured content, recursive neural networks
+                  <br/>Topics: Abstractive summarization of semi-structured content, recurrent neural networks
                 </div>
               </div>
             </div>
@@ -354,6 +360,61 @@
           <table>
             <tbody>
 
+              <!-- Snorkel MeTaL -->
+              <tr class="research">
+                <td class="research_img_cell">
+                    <a><img class="research_img", style="max-width:300px;max-height:200px;height:auto;width:auto;"
+                        src="/research/metal/metal.png"/>
+                    </a>
+                </td>
+                <td class="research_txt_cell">
+                    <div class="research_txt_title">Snorkel MeTaL: Weak Supervision 
+                        for Multi-Task Learning
+                        </div>
+                    <div class="research_txt_body">
+                        We propose an end-to-end system for multi-task learning 
+                        that leverages weak supervision provided at multiple 
+                        levels of granularity by domain expert users. MeTaL learns
+                        a re-weighted model of these weak supervision sources that
+                        takes into account their place in overall hierarchy of 
+                        sub-tasks, then uses the combined signal to train a 
+                        multi-task network that is automatically compiled from
+                        the structure of the sub-tasks.
+                    </div>
+                    <div class="research_venue">In Progress</div>
+                    <div class="research_links">
+                      [pdf soon]
+                    </div>
+                </td>
+              </tr>
+
+              <!-- QALF -->
+              <tr class="research">
+                <td class="research_img_cell">
+                    <a><img class="research_img", style="max-width:300px;max-height:200px;height:auto;width:auto;"
+                        src="/research/qalf/qalf.png"/>
+                    </a>
+                </td>
+                <td class="research_txt_cell">
+                    <div class="research_txt_title">QALF: Information Extraction 
+                        for the Long Tail via Question Answering
+                        </div>
+                    <div class="research_txt_body">
+                      We use a Question Answering (QA) model as a flexible means of 
+                      converting domain expertise expressed as natural language 
+                      into weak supervision resources (labeling functions, or LFs).
+                      Preliminary results suggest that with as few as a dozen user inputs
+                      (domain-relevant questions), we can quickly build first-order
+                      extractors for new relations that lack distant supervision resources.
+                    </div>
+                    <div class="research_venue">In Progress</div>
+                    <div class="research_links">
+                      [<a href="/research/qalf/qalf_dawn_slides_mar2018.pdf" target="_blank">slides</a>]
+                      [<a href="/research/qalf/qalf_dawn_poster_mar2018.pdf" target="_blank">poster</a>]
+                    </div>
+                </td>
+              </tr>
+
               <!-- Babble Labble -->
               <tr class="research">
                 <td class="research_img_cell">
@@ -404,9 +465,9 @@
                       and readable.
                     </div>
                     <div class="research_venue">In Progress</div>
-                    <div class="research_links">
+                    <!-- <div class="research_links">
                       [pdf soon]
-                    </div>
+                    </div> -->
                 </td>
               </tr>
 
