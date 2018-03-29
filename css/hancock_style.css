@@ -10,18 +10,19 @@
 .affiliation_title {
     color:rgb(98, 98, 98);
     font-weight: bold;
-    font-size: 1.15em;
+    font-size: 1.0em;
 }
 
 .affiliation_body {
     color:rgb(98, 98, 98);
     font-weight: 300;
+    font-size: 0.85em;
 }
 
 .logo {
     /* margin: 0 auto; */
-    width: 90px;
-    height: 90px;
+    width: 75px;
+    height: 75px;
     border: 0px;
 }
 
