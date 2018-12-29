@@ -101,8 +101,8 @@
   <div class="container">
     <div class="row">
       <div class="col-md-2 vcenter">
-        <a href="/images/braden_hancock_2016_square.jpg">
-                  <img src="/images/braden_hancock_2016_square.jpg"
+        <a href="/images/braden_hancock_2018_square.jpg">
+                  <img src="/images/braden_hancock_2018_square.jpg"
                     width="300" height="300"
                     style="border-radius: 20px; margin: 10px; max-width: none;"
                     alt="Braden Hancock"/>
@@ -146,6 +146,7 @@
 
         <div class="news_body" style="display: block;">
           <ul style="list-style-type:disc">
+            <li><strong>Dec. 2018</strong>: Posted a technical report on a <a href="https://arxiv.org/abs/1812.00417" target="_blank">Snorkel Drybell</a>, a collaboration between the Snorkel project and Google.</li></br>
             <li><strong>Dec. 2018</strong>: Snorkel and Software 2.0 got shoutouts in Kunle Olukotun's <a href="https://www.facebook.com/nipsfoundation/videos/539369239863523/" target="_blank">NeurIPS keynote</a>!</li></br>
             <li><strong>Dec. 2018</strong>: Babble Labble (w/ P. Liang) and learning from dialog (w/ J. Weston) were included in <a href="https://sites.google.com/view/lbi2018/schedule?authuser=0" target="_blank">invited talks</a> at the Learning by Instruction Workshop at NeurIPS.</li></br>
             <li><strong>Nov. 2018</strong>: <a href="https://arxiv.org/pdf/1810.02840.pdf">Snorkel MeTaL</a> has been accepted to AAAI 2019 (oral + poster).</li></br>
@@ -159,7 +160,7 @@
             <li><strong>Jun. 2018</strong>: "<a href="https://ajratner.github.io/assets/papers/mts-draft.pdf" target="_blank">Snorkel MeTaL</a>: Weak Supervision for Multi-Task Learning" presented (long talk) at <a href="http://deem-workshop.org/">DEEM</a> (SIGMOD workshop).</li></br>
             <li><strong>Jun. 2018</strong>: "<a href="https://arxiv.org/pdf/1703.05028" target="_blank">Fonduer</a>: Knowledge Base Construction from Richly Formatted Data" presented (long talk) at <a href="https://sigmod2018.org/">SIGMOD</a>.</li></br>
             <li><strong>May 2018</strong>: Chris Potts created an excellent <a href="http://nbviewer.jupyter.org/github/cgpotts/cs224u/blob/master/data_programming.ipynb">assignment</a> for Stanford CS224U (Natural Language Understanding) based on data programming/Snorkel.</li></br>
-            <li><strong>Mar. 2018</strong>: Presented QALF and Snorkel MeTaL at the Spring <a href="http://dawn.cs.stanford.edu/">Stanford DAWN</a> retreat in Santa Cruz.</li></br>
+            <!-- <li><strong>Mar. 2018</strong>: Presented QALF and Snorkel MeTaL at the Spring <a href="http://dawn.cs.stanford.edu/">Stanford DAWN</a> retreat in Santa Cruz.</li></br> -->
             <!-- <li><strong>Dec. 2017</strong>: The Stanford Statistical ML group has had an incredible 2017 with 5 best paper awards! (NeurIPS, UAI, ICML, COLT, AAAI)</li></br>
             <li><strong>Dec. 2017</strong>: Presented Babble Labble <a href="https://www.youtube.com/watch?v=YBeAX-deMDg" target="_blank">demo</a> at NeurIPS 2017.</li></br>
             <li><strong>Nov. 2017</strong>: Babble Labble was <a href="http://bcr.org/content/deep-learning-and-future-%E2%80%A8biomedical-image-analysis" target="_blank">mentioned</a> in the Biomedical Computational Review.</li></br>
@@ -207,9 +208,9 @@
                   <br/>Groups:
                     <a href="https://research.fb.com/category/facebook-ai-research/">Facebook AI Research (FAIR)</a> - Paris
                   <br/>Mentors:
-                    <a href="https://research.fb.com/people/bordes-antoine/">Antoine Bordes</a>, 
-                    <a href="https://research.fb.com/people/weston-jason/">Jason Weston</a>
-                  <br/>Topics: Meta-learning from dialog, transfer learning for chatbots
+                    <a href="https://research.fb.com/people/weston-jason/">Jason Weston</a>,
+                    <a href="https://research.fb.com/people/bordes-antoine/">Antoine Bordes</a>
+                  <br/>Topics: Self-feeding chatbots, learning from dialogue, multi-task learning
                   </div>
                 </div>
               </div>
@@ -371,38 +372,6 @@
                 </td>
               </tr>
 
-                <!-- Snorkel MeTaL -->
-              <tr class="research">
-                <td class="research_img_cell">
-                    <a><img class="research_img", style="max-width:300px;max-height:200px;height:auto;width:auto;"
-                        src="/research/metal/metal.png"/>
-                    </a>
-                </td>
-                <td class="research_txt_cell">
-                    <div class="research_txt_title">Snorkel MeTaL: Weak Supervision
-                        for Multi-Task Learning
-                        </div>
-                    <div class="research_txt_body">
-                        There is increasing interest in both multi-tasking
-                        learning (MTL) and weak supervision. We propose an
-                        end-to-end system for multi-task learning
-                        that leverages weak supervision provided at multiple
-                        levels of granularity. MeTaL learns a re-weighted model
-                        of these weak supervision sources that takes into
-                        account their place in overall hierarchy of sub-tasks,
-                        then uses the combined signal to train a multi-task
-                        network that is automatically compiled from the
-                        structure of the sub-tasks.
-                    </div>
-                    <div class="research_venue">AAAI 2019 (oral), DEEM (SIGMOD) 2018 (oral), Ongoing</div>
-                    <div class="research_links">
-                      [<a href="https://arxiv.org/pdf/1810.02840.pdf" target="_blank">pdf</a>]
-                      [<a href="https://ajratner.github.io/assets/papers/mts-draft.pdf" target="_blank">workshop</a>]
-                      [<a href="https://github.com/HazyResearch/metal" target="_blank">code</a>]
-                    </div>
-                </td>
-              </tr>
-
               <!-- Snorkel -->
               <tr class="research">
                 <td class="research_img_cell">
@@ -418,22 +387,76 @@
                         of the new data programming paradigm for supporting weak
                         supervision resources. Development is ongoing, with
                         collaborators and active users at over a dozen major
-                        technical and medical organizations (e.g., Intel, Toshiba,
-                        Jet Propulsion Laboratory (JPL), Alibaba, Stanford
-                        Medicine, etc.) and 1000+ stars on Github.
-                        I am one of the core contributors to Snorkel, including
-                        a recently revamped backend implemented as a part of Snorkel MeTaL.
+                        technical and medical organizations (e.g., Google, Intel,
+                        Toshiba, JPL, Alibaba, Stanford Medicine, etc.) and 1000+ stars
+                        on Github.
+                        I am one of the core developers and maintainers of the Snorkel
+                        project, including a recent reimplementation from scratch for
+                        improved speed and ease of use as a part of Snorkel MeTaL.
                       </div>
                       <div class="research_venue">VLDB 2018, Ongoing</div>
                       <div class="research_award">"Best of VLDB"</div>
                       <div class="research_links">
                           [<a href="https://hazyresearch.github.io/snorkel/" target="_blank">website</a>]
-                          [<a href="https://arxiv.org/abs/1711.10160" target="_blank">pdf</a>]
+                          [<a href="https://arxiv.org/abs/1711.10160" target="_blank">pdf 1</a>]
+                          [<a href="https://arxiv.org/abs/1812.00417" target="_blank">pdf 2</a>]
                           [<a href="https://github.com/HazyResearch/snorkel" target="_blank">code</a>]
                           [coverage: <a href="https://www.oreilly.com/ideas/creating-large-training-data-sets-quickly">O'Reilly</a>, <a href="http://www.eetimes.com/document.asp?doc_id=1331733">EETimes</a>, <a href="https://www.infoworld.com/article/3211350/machine-learning/data-is-eating-the-software-that-is-eating-the-world.html">InfoWorld</a>]
                       </div>
                   </td>
                 </tr>
+
+                <!-- FAIR self-feeding
+                <tr class="research">
+                    <td class="research_img_cell">
+                        <a><img class="research_img", style="max-width:300px;max-height:200px;height:auto;width:auto;"
+                            src="/research/fair/self_feeding.png"/>
+                        </a>
+                    </td>
+                    <td class="research_txt_cell">
+                        <div class="research_txt_title">TODO: Title
+                            </div>
+                        <div class="research_txt_body">
+                            TODO: Description
+                        </div>
+                        <div class="research_venue">Ongoing</div>
+                        <div class="research_links">
+                          [pdf soon]
+                        </div>
+                    </td>
+                  </tr> -->
+
+                <!-- Snorkel MeTaL -->
+                <tr class="research">
+                    <td class="research_img_cell">
+                        <a><img class="research_img", style="max-width:300px;max-height:200px;height:auto;width:auto;"
+                            src="/research/metal/metal.png"/>
+                        </a>
+                    </td>
+                    <td class="research_txt_cell">
+                        <div class="research_txt_title">Snorkel MeTaL: Weak Supervision
+                            for Multi-Task Learning
+                            </div>
+                        <div class="research_txt_body">
+                            There is increasing interest in both multi-tasking
+                            learning (MTL) and weak supervision. We propose an
+                            end-to-end system for multi-task learning
+                            that leverages weak supervision provided at multiple
+                            levels of granularity. MeTaL learns a re-weighted model
+                            of these weak supervision sources that takes into
+                            account their place in overall hierarchy of sub-tasks,
+                            then uses the combined signal to train a multi-task
+                            network that is automatically compiled from the
+                            structure of the sub-tasks.
+                        </div>
+                        <div class="research_venue">AAAI 2019 (oral), DEEM (SIGMOD) 2018 (oral), Ongoing</div>
+                        <div class="research_links">
+                          [<a href="https://arxiv.org/pdf/1810.02840.pdf" target="_blank">pdf</a>]
+                          [<a href="https://ajratner.github.io/assets/papers/mts-draft.pdf" target="_blank">workshop</a>]
+                          [<a href="https://github.com/HazyResearch/metal" target="_blank">code</a>]
+                        </div>
+                    </td>
+                  </tr>
 
               <!-- Babble Labble -->
               <tr class="research">
@@ -751,7 +774,7 @@
             <div class="col-md-10">
               <div class="affiliation_title">Stanford University</div>
               <div class="affiliation_body">
-                Ph.D. Computer Science (Aug. 2019)
+                Ph.D. Computer Science (Jun. 2019)
                 <br/>Advisor: <a href="https://cs.stanford.edu/people/chrismre/">Chris Ré</a>
                 <br/>Machine Learning Emphasis (GPA 4.00)
               </div>
