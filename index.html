@@ -145,8 +145,9 @@
         <h3 id="news" class="section_header">News</h3>
 
         <div class="news_body" style="display: block;">
-          <ul style="list-style-type:disc">
-            <li><strong>Dec. 2018</strong>: Posted a technical report on a <a href="https://arxiv.org/abs/1812.00417" target="_blank">Snorkel Drybell</a>, a collaboration between the Snorkel project and Google.</li></br>
+                <ul style="list-style-type:disc">
+            <li><strong>Jan. 2019</strong>: Posted our paper on <a href="https://arxiv.org/pdf/1901.05415.pdf" target="_blank">self-feeding chatbots</a> from my time at FAIR to arXiv.<br>
+            <li><strong>Dec. 2018</strong>: Posted a technical report on <a href="https://arxiv.org/abs/1812.00417" target="_blank">Snorkel Drybell</a>, a collaboration between the Snorkel project and Google.</li></br>
             <li><strong>Dec. 2018</strong>: Snorkel and Software 2.0 got shoutouts in Kunle Olukotun's <a href="https://www.facebook.com/nipsfoundation/videos/539369239863523/" target="_blank">NeurIPS keynote</a>!</li></br>
             <li><strong>Dec. 2018</strong>: Babble Labble (w/ P. Liang) and learning from dialog (w/ J. Weston) were included in <a href="https://sites.google.com/view/lbi2018/schedule?authuser=0" target="_blank">invited talks</a> at the Learning by Instruction Workshop at NeurIPS.</li></br>
             <li><strong>Nov. 2018</strong>: <a href="https://arxiv.org/pdf/1810.02840.pdf">Snorkel MeTaL</a> has been accepted to AAAI 2019 (oral + poster).</li></br>
@@ -345,33 +346,6 @@
           <table>
             <tbody>
 
-              <!-- Software 2.0 -->
-              <tr class="research">
-                <td class="research_img_cell">
-                    <a><img class="research_img", style="max-width:300px;max-height:200px;height:auto;width:auto;"
-                        src="/research/s2/software_stack.png"/>
-                    </a>
-                </td>
-                <td class="research_txt_cell">
-                    <div class="research_txt_title">Software 2.0: Learning-Centric Software Stacks
-                        </div>
-                    <div class="research_txt_body">
-                        Driven by accuracy improvements and deployment advantages, many organizations have begun to shift toward learning-centered
-                        software stacks.
-                        That is, "Software 1.0" code with explicit instructions written by programmers is being replaced by "Software 2.0" code that is written in the weights of neural networks.
-                        In this paradigm, training data becomes the primary interface through which developers interact with their Software 2.0 systems.
-                        This requires a new level of scalability, control, and efficiency when it comes to generating and shaping training sets.
-                        We are exploring the ramifications of this new programming model and building the tools to support it.
-                    </div>
-                    <div class="research_venue">CIDR 2019, Ongoing</div>
-                    <div class="research_links">
-                      [<a href="https://ajratner.github.io/assets/papers/software_2_mmt_vision.pdf" target="_blank">pdf</a>]
-                      [<a href="https://dawn.cs.stanford.edu/2018/06/21/debugging/" target="_blank">blog 1</a>]
-                      [<a href="https://dawn.cs.stanford.edu/2018/08/30/debugging2/" target="_blank">blog 2</a>]
-                    </div>
-                </td>
-              </tr>
-
               <!-- Snorkel -->
               <tr class="research">
                 <td class="research_img_cell">
@@ -406,90 +380,122 @@
                   </td>
                 </tr>
 
-                <!-- FAIR self-feeding
-                <tr class="research">
+              <!-- Software 2.0 -->
+              <tr class="research">
                     <td class="research_img_cell">
                         <a><img class="research_img", style="max-width:300px;max-height:200px;height:auto;width:auto;"
-                            src="/research/fair/self_feeding.png"/>
+                            src="/research/s2/software_stack.png"/>
                         </a>
                     </td>
                     <td class="research_txt_cell">
-                        <div class="research_txt_title">TODO: Title
+                        <div class="research_txt_title">Software 2.0: Learning-Centric Software Stacks
                             </div>
                         <div class="research_txt_body">
-                            TODO: Description
+                            Driven by accuracy improvements and deployment advantages, many organizations have begun to shift toward learning-centered
+                            software stacks.
+                            That is, "Software 1.0" code with explicit instructions written by programmers is being replaced by "Software 2.0" code that is written in the weights of neural networks.
+                            In this paradigm, training data becomes the primary interface through which developers interact with their Software 2.0 systems.
+                            This requires a new level of scalability, control, and efficiency when it comes to generating and shaping training sets.
+                            We are exploring the ramifications of this new programming model and building the tools to support it.
                         </div>
-                        <div class="research_venue">Ongoing</div>
+                        <div class="research_venue">CIDR 2019, Ongoing</div>
                         <div class="research_links">
-                          [pdf soon]
-                        </div>
-                    </td>
-                  </tr> -->
-
-                <!-- Snorkel MeTaL -->
-                <tr class="research">
-                    <td class="research_img_cell">
-                        <a><img class="research_img", style="max-width:300px;max-height:200px;height:auto;width:auto;"
-                            src="/research/metal/metal.png"/>
-                        </a>
-                    </td>
-                    <td class="research_txt_cell">
-                        <div class="research_txt_title">Snorkel MeTaL: Weak Supervision
-                            for Multi-Task Learning
-                            </div>
-                        <div class="research_txt_body">
-                            There is increasing interest in both multi-tasking
-                            learning (MTL) and weak supervision. We propose an
-                            end-to-end system for multi-task learning
-                            that leverages weak supervision provided at multiple
-                            levels of granularity. MeTaL learns a re-weighted model
-                            of these weak supervision sources that takes into
-                            account their place in overall hierarchy of sub-tasks,
-                            then uses the combined signal to train a multi-task
-                            network that is automatically compiled from the
-                            structure of the sub-tasks.
-                        </div>
-                        <div class="research_venue">AAAI 2019 (oral), DEEM (SIGMOD) 2018 (oral), Ongoing</div>
-                        <div class="research_links">
-                          [<a href="https://arxiv.org/pdf/1810.02840.pdf" target="_blank">pdf</a>]
-                          [<a href="https://ajratner.github.io/assets/papers/mts-draft.pdf" target="_blank">workshop</a>]
-                          [<a href="https://github.com/HazyResearch/metal" target="_blank">code</a>]
+                          [<a href="https://ajratner.github.io/assets/papers/software_2_mmt_vision.pdf" target="_blank">pdf</a>]
+                          [<a href="https://dawn.cs.stanford.edu/2018/06/21/debugging/" target="_blank">blog 1</a>]
+                          [<a href="https://dawn.cs.stanford.edu/2018/08/30/debugging2/" target="_blank">blog 2</a>]
                         </div>
                     </td>
                   </tr>
 
+                <!-- FAIR self-feeding -->
+                <tr class="research">
+                    <td class="research_img_cell">
+                        <a><img class="research_img", style="max-width:300px;max-height:200px;height:auto;width:auto;"
+                            src="/research/fair/feeding.png"/>
+                        </a>
+                    </td>
+                    <td class="research_txt_cell">
+                        <div class="research_txt_title">Self-Feeding Chatbots
+                            </div>
+                        <div class="research_txt_body">
+                            Most of the conversations a chatbot sees over its lifetime happen after it's deployed.
+                            These conversations aren't typically useable as training data, but give the chatbot the
+                            right tools and it can learn from those too! We introduced a multi-task "self-feeding"
+                            chatbot that knows how to extract new training examples from the conversations it
+                            participates in to improve itself further after it's deployed.
+                        </div>
+                        <div class="research_venue">Ongoing</div>
+                        <div class="research_links">
+                            [<a href="https://arxiv.org/pdf/1901.05415.pdf" target="_blank">pdf</a>]
+                        </div>
+                    </td>
+                  </tr>
+
+                <!-- Snorkel MeTaL -->
+                <tr class="research">
+                        <td class="research_img_cell">
+                            <a><img class="research_img", style="max-width:300px;max-height:200px;height:auto;width:auto;"
+                                src="/research/metal/metal.png"/>
+                            </a>
+                        </td>
+                        <td class="research_txt_cell">
+                            <div class="research_txt_title">Snorkel MeTaL: Weak Supervision
+                                for Multi-Task Learning
+                                </div>
+                            <div class="research_txt_body">
+                                There is increasing interest in both multi-tasking
+                                learning (MTL) and weak supervision. We propose an
+                                end-to-end system for multi-task learning
+                                that leverages weak supervision provided at multiple
+                                levels of granularity. MeTaL learns a re-weighted model
+                                of these weak supervision sources that takes into
+                                account their place in overall hierarchy of sub-tasks,
+                                then uses the combined signal to train a multi-task
+                                network that is automatically compiled from the
+                                structure of the sub-tasks.
+                            </div>
+                            <div class="research_venue">AAAI 2019 (oral), DEEM (SIGMOD) 2018 (oral), Ongoing</div>
+                            <div class="research_links">
+                              [<a href="https://arxiv.org/pdf/1810.02840.pdf" target="_blank">pdf</a>]
+                              [<a href="https://ajratner.github.io/assets/papers/mts-draft.pdf" target="_blank">workshop</a>]
+                              [<a href="https://github.com/HazyResearch/metal" target="_blank">code</a>]
+                            </div>
+                        </td>
+                      </tr>
+
+
               <!-- Babble Labble -->
               <tr class="research">
-                <td class="research_img_cell">
-                    <a><img class="research_img", style="max-width:300px;max-height:200px;height:auto;width:auto;"
-                        src="/research/babble/babble_with_logo.png"/>
-                    </a>
-                </td>
-                <td class="research_txt_cell">
-                    <div class="research_txt_title">Babble Labble: Learning from Natural Language Explanations</div>
-                    <div class="research_txt_body">
-                      We explore collecting natural language explanations
-                      for <i>why</i> annotators give the labels they do and
-                      parsing these into executable functions, which can then
-                      be used to generate noisy labels for large amounts of
-                      unlabeled data. The resulting probabalistically labeled
-                      training dataset can then be used to train a powerful
-                      downstream discriminative model for the task at hand.
-                      We find that utilizing these natural language explanations
-                      allows real-world users to train classifiers with
-                      comparable F1 scores up to 100 times faster than when they
-                      provide just labels.
-                    </div>
-                    <div class="research_venue">ACL 2018 (oral), NeurIPS 2017 Demo</div>
-                    <div class="research_links">
-                      [<a href="https://arxiv.org/pdf/1805.03818.pdf" target="_blank">pdf</a>]
-                      [<a href="https://hazyresearch.github.io/snorkel/blog/babble_labble.html" target="_blank">blog</a>]
-                      [<a href="https://www.youtube.com/watch?v=YBeAX-deMDg" target="_blank">video</a>]
-                      [<a href="/research/babble/Babble_ACL_presentation.pptx" target="_blank">slides</a>]
-                      [<a href="https://github.com/HazyResearch/babble" target="_blank">code</a>]
-                    </div>
-                </td>
-              </tr>
+                    <td class="research_img_cell">
+                        <a><img class="research_img", style="max-width:300px;max-height:200px;height:auto;width:auto;"
+                            src="/research/babble/babble_with_logo.png"/>
+                        </a>
+                    </td>
+                    <td class="research_txt_cell">
+                        <div class="research_txt_title">Babble Labble: Learning from Natural Language Explanations</div>
+                        <div class="research_txt_body">
+                          We explore collecting natural language explanations
+                          for <i>why</i> annotators give the labels they do and
+                          parsing these into executable functions, which can then
+                          be used to generate noisy labels for large amounts of
+                          unlabeled data. The resulting probabalistically labeled
+                          training dataset can then be used to train a powerful
+                          downstream discriminative model for the task at hand.
+                          We find that utilizing these natural language explanations
+                          allows real-world users to train classifiers with
+                          comparable F1 scores up to 100 times faster than when they
+                          provide just labels.
+                        </div>
+                        <div class="research_venue">ACL 2018 (oral), NeurIPS 2017 Demo</div>
+                        <div class="research_links">
+                          [<a href="https://arxiv.org/pdf/1805.03818.pdf" target="_blank">pdf</a>]
+                          [<a href="https://hazyresearch.github.io/snorkel/blog/babble_labble.html" target="_blank">blog</a>]
+                          [<a href="https://www.youtube.com/watch?v=YBeAX-deMDg" target="_blank">video</a>]
+                          [<a href="/research/babble/Babble_ACL_presentation.pptx" target="_blank">slides</a>]
+                          [<a href="https://github.com/HazyResearch/babble" target="_blank">code</a>]
+                        </div>
+                    </td>
+                  </tr>
 
               <!-- QALF -->
               <tr class="research">
