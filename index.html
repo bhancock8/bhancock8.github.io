@@ -6,7 +6,7 @@
   <title>Braden Hancock - Home</title>
 
   <meta name="author" content="Braden Hancock" />
-  <meta name="description" content="Braden Hancock Personal Portfolio" />
+  <meta name="description" content="Braden Hancock Homepage" />
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta name="msvalidate.01" content="E24D5EAA25B6222F340CB16DC5C713D1" />
 
@@ -120,7 +120,8 @@
         <div class="bio_body">
           I'm a fourth-year Computer Science Ph.D. Candidate and NSF Fellow at
           Stanford University.
-          I research how to get supervision signal from a human into a model as quickly, easily, and efficiently as possible.
+          I research machine learning systems, focusing on how to get supervision signal
+          from a human into a model as quickly, easily, and efficiently as possible.
           My goal is to make it possible for non-ML experts to create near
           state-of-the-art machine learning systems for new tasks in
           hours instead of months.
@@ -146,6 +147,7 @@
 
         <div class="news_body" style="display: block;">
                 <ul style="list-style-type:disc">
+            <li><strong>Feb. 2019</strong>: Posted some thoughts on emerging topic <a href="https://hazyresearch.github.io/snorkel/blog/mtl_systems.html">MTL Systems</a> in a blog post.<br>
             <li><strong>Jan. 2019</strong>: Our work on self-feeding chatbots was featured on <a href="https://venturebeat.com/2019/01/17/facebook-and-stanford-researchers-design-a-chatbot-that-learns-from-its-mistakes/">VentureBeat</a>.<br>
             <li><strong>Jan. 2019</strong>: Posted our paper on <a href="https://arxiv.org/pdf/1901.05415.pdf" target="_blank">self-feeding chatbots</a> from my time at FAIR to arXiv.<br>
             <li><strong>Dec. 2018</strong>: Posted a technical report on <a href="https://arxiv.org/abs/1812.00417" target="_blank">Snorkel Drybell</a>, a collaboration between the Snorkel project and Google.</li></br>
@@ -362,14 +364,15 @@
                         of the new data programming paradigm for supporting weak
                         supervision resources. Development is ongoing, with
                         collaborators and active users at over a dozen major
-                        technical and medical organizations (e.g., Google, Intel,
-                        Toshiba, JPL, Alibaba, Stanford Medicine, etc.) and 1000+ stars
-                        on Github.
+                        technical and medical organizations (e.g., Google, Microsoft,
+                        Intel, Toshiba, JPL, Alibaba, Stanford Medicine, etc.) and
+                        1000+ stars on Github.
                         I am one of the core developers and maintainers of the Snorkel
                         project, including a recent reimplementation from scratch for
-                        improved speed and ease of use as a part of Snorkel MeTaL.
+                        improved speed, ease of use, and MTL support as a part of
+                        Snorkel MeTaL.
                       </div>
-                      <div class="research_venue">VLDB 2018, Ongoing</div>
+                      <div class="research_venue">VLDB 2018 <font color=#D21919>(oral)</font>, Ongoing</div>
                       <div class="research_award">"Best of VLDB"</div>
                       <div class="research_links">
                           [<a href="https://hazyresearch.github.io/snorkel/" target="_blank">website</a>]
@@ -399,7 +402,7 @@
                             This requires a new level of scalability, control, and efficiency when it comes to generating and shaping training sets.
                             We are exploring the ramifications of this new programming model and building the tools to support it.
                         </div>
-                        <div class="research_venue">CIDR 2019, Ongoing</div>
+                        <div class="research_venue">CIDR 2019 <font color=#D21919>(oral)</font>, Ongoing</div>
                         <div class="research_links">
                           [<a href="https://ajratner.github.io/assets/papers/software_2_mmt_vision.pdf" target="_blank">pdf</a>]
                           [<a href="https://dawn.cs.stanford.edu/2018/06/21/debugging/" target="_blank">blog 1</a>]
@@ -456,7 +459,7 @@
                                 network that is automatically compiled from the
                                 structure of the sub-tasks.
                             </div>
-                            <div class="research_venue">AAAI 2019 (oral), DEEM (SIGMOD) 2018 (oral), Ongoing</div>
+                            <div class="research_venue">AAAI 2019 <font color=#D21919>(oral)</font>, DEEM (SIGMOD) 2018 <font color=#D21919>(oral)</font>, Ongoing</div>
                             <div class="research_links">
                               [<a href="https://arxiv.org/pdf/1810.02840.pdf" target="_blank">pdf</a>]
                               [<a href="https://ajratner.github.io/assets/papers/mts-draft.pdf" target="_blank">workshop</a>]
@@ -488,7 +491,7 @@
                           comparable F1 scores up to 100 times faster than when they
                           provide just labels.
                         </div>
-                        <div class="research_venue">ACL 2018 (oral), NeurIPS 2017 Demo</div>
+                        <div class="research_venue">ACL 2018 <font color=#D21919>(oral)</font>, NeurIPS 2017 Demo</div>
                         <div class="research_links">
                           [<a href="https://arxiv.org/pdf/1805.03818.pdf" target="_blank">pdf</a>]
                           [<a href="https://hazyresearch.github.io/snorkel/blog/babble_labble.html" target="_blank">blog</a>]
@@ -499,32 +502,6 @@
                         </div>
                     </td>
                   </tr>
-
-              <!-- QALF -->
-              <tr class="research">
-                <td class="research_img_cell">
-                    <a><img class="research_img", style="max-width:300px;max-height:200px;height:auto;width:auto;"
-                        src="/research/qalf/qalf.png"/>
-                    </a>
-                </td>
-                <td class="research_txt_cell">
-                    <div class="research_txt_title">QALF: Information Extraction
-                        for the Long Tail via Question Answering
-                        </div>
-                    <div class="research_txt_body">
-                      We use a Question Answering (QA) model as a flexible means of
-                      converting domain expertise expressed as natural language
-                      into weak supervision resources (labeling functions, or LFs).
-                      Preliminary results suggest that with as few as a dozen user inputs
-                      (domain-relevant questions), we can quickly build first-order
-                      extractors for new relations that lack distant supervision resources.
-                    </div>
-                    <div class="research_links">
-                      [<a href="/research/qalf/qalf_dawn_slides_mar2018.pdf" target="_blank">slides</a>]
-                      [<a href="/research/qalf/qalf_dawn_poster_mar2018.pdf" target="_blank">poster</a>]
-                    </div>
-                </td>
-              </tr>
 
               <!-- Fonduer -->
               <tr class="research">
@@ -543,7 +520,7 @@
                       in use commercially at Alibaba and with law enforcement agencies
                       fighting online human trafficking.
                     </div>
-                    <div class="research_venue">SIGMOD 2018</div>
+                    <div class="research_venue">SIGMOD 2018 <font color=#D21919>(oral)<</font>/div>
                     <div class="research_links">
                         [<a href="https://arxiv.org/pdf/1703.05028" target="_blank">pdf</a>]
                         [<a href="https://hazyresearch.github.io/snorkel/blog/fonduer.html" target="_blank">blog</a>]
@@ -593,6 +570,7 @@
                       and readable.
                     </div>
                     <!-- <div class="research_venue">In Progress</div> -->
+                    <div class="research_venue">The Web Conference (WWW) 2019</div>
                     <div class="research_links">
                         [<a href="https://arxiv.org/abs/1807.00099" target="_blank">pdf</a>]
                     </div>
@@ -666,6 +644,32 @@
           <table>
             <tbody>
               <br />
+
+              <!-- QALF -->
+              <tr class="research">
+                <td class="research_img_cell">
+                    <a><img class="research_img", style="max-width:300px;max-height:200px;height:auto;width:auto;"
+                        src="/research/qalf/qalf.png"/>
+                    </a>
+                </td>
+                <td class="research_txt_cell">
+                    <div class="research_txt_title">QALF: Information Extraction
+                        for the Long Tail via Question Answering
+                        </div>
+                    <div class="research_txt_body">
+                      We use a Question Answering (QA) model as a flexible means of
+                      converting domain expertise expressed as natural language
+                      into weak supervision resources (labeling functions, or LFs).
+                      Preliminary results suggest that with as few as a dozen user inputs
+                      (domain-relevant questions), we can quickly build first-order
+                      extractors for new relations that lack distant supervision resources.
+                    </div>
+                    <div class="research_links">
+                      [<a href="/research/qalf/qalf_dawn_slides_mar2018.pdf" target="_blank">slides</a>]
+                      [<a href="/research/qalf/qalf_dawn_poster_mar2018.pdf" target="_blank">poster</a>]
+                    </div>
+                </td>
+              </tr>
 
               <!-- L-Dominance -->
               <tr class="research">
@@ -994,12 +998,17 @@
 
       </div>
     </div>
+
+    <h3 id="tweets" class="section_header">Tweets</h3>
+    <!-- Add Twitter Feed -->
+    <a class="twitter-timeline" data-height="500" href="https://twitter.com/bradenjhancock?ref_src=twsrc%5Etfw">@bradenjhancock</a>
+      <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
     <div class="col-md-11">
       <hr>
-      <p> Last updated on 28 Aug 2018. </p>
+      <p> Last updated on 20 Jan 2019. </p>
     </div>
   </div>
-
 
   <script src="/vendor/js/jquery.min.js"></script>
   <script src="/vendor/js/bootstrap.min.js"></script>
