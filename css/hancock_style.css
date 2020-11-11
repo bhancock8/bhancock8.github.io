@@ -20,7 +20,6 @@
 }
 
 .logo {
-    /* margin: 0 auto; */
     width: 75px;
     height: 75px;
     border: 0px;
@@ -54,7 +53,7 @@
 }
 
 .award_links {
-    color:rgb(98, 98, 98); 
+    color:rgb(98, 98, 98);
 }
 
 .award_logo {
@@ -72,16 +71,16 @@
 .bio_email {
     text-align: center;
     font-weight: 300;
-    font-size: 1.0em; 
-    margin-top: 1.0em; 
+    font-size: 1.0em;
+    margin-top: 1.0em;
     color:rgb(98, 98, 98);
 }
 
 .bio_body {
     text-align: left;
     font-weight: 300;
-    font-size: 1.0em; 
-    margin-top: 1.5em; 
+    font-size: 1.0em;
+    margin-top: 1.5em;
     padding-bottom: 0.3em;
     color:rgb(98, 98, 98);
 }
@@ -89,8 +88,8 @@
 .news_body {
     text-align: left;
     font-weight: 300;
-    font-size: 0.9em; 
-    /* margin-top: 1.5em; 
+    font-size: 0.9em;
+    /* margin-top: 1.5em;
     padding-bottom: 0.3em; */
     color:rgb(98, 98, 98);
 }
@@ -100,7 +99,7 @@
 }
 
 .research_img_cell {
-    width:40%; 
+    width:40%;
     padding:0;
     padding-top:10px;
     padding-bottom:10px;
@@ -118,8 +117,8 @@
 }
 
 .research_txt_cell {
-    text-align:top; /* Does this make a difference? */
-    width:60%; 
+    text-align:top;
+    width:60%;
     padding-bottom:20px;
 }
 
@@ -131,11 +130,11 @@
 
 .research_txt_body {
     font-weight: 300;
-    color:rgb(98, 98, 98); 
+    color:rgb(98, 98, 98);
 }
 
 .research_links {
-    color:rgb(98, 98, 98); 
+    color:rgb(98, 98, 98);
 }
 
 .research_venue {
