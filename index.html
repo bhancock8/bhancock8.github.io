@@ -18,10 +18,52 @@
   <link href="/css/karpathy_style.css" rel="stylesheet">
   <link href="/css/hsiao_style.css" rel="stylesheet">
   <link href="/css/hancock_style.css" rel="stylesheet">
+  <link href="/css/custom.css" rel="stylesheet">
 
   <link rel="shortcut icon" type="image/x-icon" href="/images/myfavicon.ico">
 
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    .research-img {
+      max-width: 300px;
+      max-height: 200px;
+      height: auto;
+      width: auto;
+    }
+    .social-icons {
+      font-size: 1.4em;
+    }
+    .bio-header {
+      font-size: 4em;
+      color: #4582ec;
+      font-weight: bold;
+      padding-top: 0.3em;
+      padding-bottom: 0.3em;
+    }
+    .profile-img {
+      border-radius: 20px;
+      margin: 10px;
+      max-width: none;
+    }
+    .show-more-section {
+      margin: 0 -15px;
+    }
+    .show-more-btn {
+      text-align: center;
+    }
+    .show-more-container {
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+    .research-section {
+      margin: 0 -15px;
+    }
+    .news-section {
+      display: block;
+    }
+    .section-spacer {
+      margin-top: 30px;
+    }
+  </style>
 
   <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -31,7 +73,6 @@
 
     ga('create', 'UA-105598606-1', 'auto');
     ga('send', 'pageview');
-
   </script>
 </head>
 
@@ -70,7 +111,7 @@
                 <a href="/#awards">Awards</a>
               </li>
             </ul>
-            <ul class="nav navbar-nav navbar-right" style="font-size: 1.4em">
+            <ul class="nav navbar-nav navbar-right social-icons">
               <li>
                 <a href="mailto:hancock.braden@gmail.com" target="_blank">
                   <i class="fa fa-envelope-square"></i></a>
@@ -79,18 +120,10 @@
                 <a href="http://www.linkedin.com/in/bradenhancock" target="_blank">
                   <i class="fa fa-fw fa-linkedin-square"></i></a>
               </li>
-              <!-- <li>
-                <a href="https://twitter.com/bradenjhancock" target="_blank">
-                  <i class="fa fa-fw fa-twitter-square"></i></a>
-              </li> -->
               <li>
                 <a href="https://scholar.google.com/citations?user=28y0Xe4AAAAJ" target="_blank">
                   <i class="fa fa-fw fa-graduation-cap"></i></a>
               </li>
-              <!-- <li>
-                <a href="/docs/hancock_resume_2024-01-10.pdf" target="_blank">
-                  <i class="fa fa-fw fa-file-text"></i></a>
-              </li> -->
             </ul>
           </div>
         </div>
@@ -102,43 +135,18 @@
     <div class="row">
       <div class="col-md-2 vcenter">
         <a href="/images/braden_hancock_2018_square.jpg">
-                  <img src="/images/braden_hancock_2018_square.jpg"
-                    width="300" height="300"
-                    style="border-radius: 20px; margin: 10px; max-width: none;"
-                    alt="Braden Hancock"/>
-                  </a>
+          <img src="/images/braden_hancock_2018_square.jpg" width="300" height="300" class="profile-img" alt="Braden Hancock"/>
+        </a>
       </div>
       <div class="col-md-7 col-md-offset-2 vcenter bio_header">
-        <div id="biography" style='font-size: 4em; color: #4582ec; font-weight: bold; padding-top: 0.3em; padding-bottom: 0.3em;'>
-          Braden Hancock</div>
-        <div style='font-size: 1.25em;'>
-          AI Research Leader | Director of AI @ Meta | Co-founder @ Snorkel AI
-        </div>
-        <!-- <div class="bio_email">
-            bradenjh<span style="display:none">foo</span>@cs.stanford.edu
-        </div> -->
+        <div id="biography" class="bio-header">Braden Hancock</div>
+        <div class="bio-role">AI Research Leader | Director of AI @ Meta | Co-founder @ Snorkel AI</div>
         <div class="bio_body">
-            <!-- I lead AI teams in transitioning technology from research to production. In my 15 years of experience in the AI space, I have been fortunate to co-author dozens of papers at top-tier ML venues and ship enterprise AI solutions based on that work resulting in over a billion dollars of value.
-
-            I love going to work every day with the fantastic team at <a href="https:snorkel.ai">Snorkel AI</a>, where I am a Co-founder and Head of Technology.
-            We're building <a href="https://snorkel.ai/how-to-use-snorkel-to-build-ai-applications/" target="_blank">Snorkel Flow</a>, the AI data development platform. -->
-            I am an AI research leader who specializes in taking innovative research all the way to production. 
-            In my 15 years of AI research experience, I have had the opportunity to publish research at Stanford, Meta, Google, MIT, Johns Hopkins, AFRL, and BYU; 
-            co-found and lead Snorkel AI, an AI platform company with $135M raised and a $1B valuation; 
-            and found and lead the centralized Evaluations org that is responsible for evaluation strategy, development, tooling, and execution for all GenAI foundation models at Meta (e.g. the Llama family).
+          I am an AI research leader who specializes in taking innovative research all the way to production. 
+          In my 15 years of AI research experience, I have had the opportunity to publish research at Stanford, Meta, Google, MIT, Johns Hopkins, AFRL, and BYU; 
+          co-found and lead Snorkel AI, an AI platform company with $135M raised and a $1B valuation; 
+          and found and lead the centralized Evaluations org that is responsible for evaluation strategy, development, tooling, and execution for all GenAI foundation models at Meta (e.g. the Llama family).
         </div>
-        <!-- <div class="bio_body">
-          <strong>Research interests</strong>:
-          <br/> generative AI, LLMs, machine learning systems, weak supervision, multi-task learning (MTL), transfer learning, training data creation, learning from natural language, information extraction, natural language processing (NLP)
-        </div> -->
-        <!-- <div class="bio_body">
-          <strong>Dissertation</strong>:
-          <a href="https://www.dropbox.com/s/ptywi75n3mraxuy/Hancock_defense.pptx?dl=0">slides</a>
-        </div> -->
-        <!-- <div class="bio_body">
-          <strong>Communities</strong>:
-          <br/> machine learning (NeurIPS), systems (SIGMOD), NLP (ACL)
-        </div> -->
         <br/>
       </div>
     </div>
@@ -150,6 +158,7 @@
         <div class="news_body" style="display: block;">
           <ul style="list-style-type:disc">
 
+            <!-- TODO: Add Snorkel on Most Innovative Companies 2025: https://www.linkedin.com/feed/update/urn:li:activity:7307807765886877700/ -->
             <li><strong>July 2024</strong>: <a href="https://ai.meta.com/blog/meta-llama-3-1/" target_"_blank">Llama 3.1</a> released with comprehensive tech report detailing our data, training, and evaluation strategy.</br>
 
             <li><strong>Apr. 2024</strong>: <a href="https://ai.meta.com/blog/meta-llama-3/" target_"_blank">Llama 3</a> released: the most capable openly available LLM to date.</br>
@@ -1093,7 +1102,7 @@
               <img class="award_logo center-block" src="/images/logos/aiaa.png">
             </div>
             <div class="col-md-10">
-              <div class="award_title">AIAA Vicki and George Muellner Scholarship</div>
+              <div class="award_title">AIAA Vicki and George Muellner Scholarship</div>
               <div class="award_body">2014 (1 of 1 in USA)</div>
               <div class="award_links">
                 [<a href="https://www.aiaa.org/SecondaryTwoColumn.aspx?id=24085" target="_blank">announcement</a>]
@@ -1143,7 +1152,7 @@
                 <img class="award_logo center-block" src="/images/logos/aiaa.png">
               </div>
               <div class="col-md-10">
-                <div class="award_title">AIAA Orville and Wilbur Wright Scholarship</div>
+                <div class="award_title">AIAA Orville and Wilbur Wright Scholarship</div>
                 <div class="award_body">2013 (1 of 3 in USA)</div>
                 <div class="award_links">
                   [<a href="https://www.aiaa.org/SecondaryTwoColumn.aspx?id=18460" target="_blank">announcement</a>]
@@ -1225,27 +1234,7 @@
 
   <script src="/vendor/js/jquery.min.js"></script>
   <script src="/vendor/js/bootstrap.min.js"></script>
-
-  <!-- Smooth scrolling to specific parts of the page -->
-  <script type="text/javascript">
-    $(function () {
-      $('a[href*="#"]:not([href="#"])').click(function () {
-        if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
-          var target = $(this.hash);
-          target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-          if (target.length) {
-            topMenu = $("#site_nav")
-            topMenuHeight = topMenu.outerHeight() + 5
-            $('html, body').animate({
-              scrollTop: target.offset().top - topMenuHeight
-            }, 300);
-            return false;
-          }
-        }
-      });
-    });
-  </script>
-
+  <script src="/js/main.js"></script>
 </body>
 
 </html>

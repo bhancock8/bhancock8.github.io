@@ -1,0 +1,99 @@
+.research-img {
+  max-width: 300px;
+  max-height: 200px;
+  height: auto;
+  width: auto;
+}
+
+.social-icons {
+  font-size: 1.4em;
+}
+
+.bio-header {
+  font-size: 4em;
+  color: #4582ec;
+  font-weight: bold;
+  padding-top: 0.3em;
+  padding-bottom: 0.3em;
+}
+
+.bio-role {
+  font-size: 1.25em;
+  margin-bottom: 1em;
+}
+
+.bio-body {
+  text-align: left;
+  font-size: 1em;
+  line-height: 1.4;
+}
+
+.profile-img {
+  border-radius: 20px;
+  margin: 10px;
+  max-width: none;
+}
+
+.show-more-section {
+  margin: 0 -15px;
+}
+
+.show-more-btn {
+  text-align: center;
+}
+
+.show-more-container {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.research-section {
+  margin: 0 -15px;
+}
+
+.news-section {
+  display: block;
+}
+
+.section-spacer {
+  margin-top: 30px;
+}
+
+/* Research item styles */
+.research-item {
+  margin-bottom: 2em;
+}
+
+.research-title {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-bottom: 0.5em;
+}
+
+.research-description {
+  margin-bottom: 1em;
+}
+
+.research-links {
+  font-size: 0.9em;
+}
+
+/* Award styles */
+.award-item {
+  margin-bottom: 1.5em;
+}
+
+.award-logo {
+  max-width: 100%;
+  height: auto;
+}
+
+.award-title {
+  font-weight: bold;
+  margin-bottom: 0.3em;
+}
+
+.award-body {
+  font-style: italic;
+  margin-bottom: 0.5em;
+} 
