@@ -174,30 +174,9 @@ img {
   border: 0px;
 }
 
-/* Award section */
-.award {
-  padding-bottom: 5px;
-}
-
-.award_title {
-  font-size: 1.15em;
-  font-weight: 150;
-  color: rgb(98, 98, 98);
-}
-
-.award_body {
-  color: rgb(98, 98, 98);
-  font-weight: 300;
-}
-
+/* Award links - preserved for backward compatibility */
 .award_links {
   color: rgb(98, 98, 98);
-}
-
-.award_logo {
-  width: 80px;
-  height: 80px;
-  border: 0px;
 }
 
 /* Show more/less buttons */
