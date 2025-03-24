@@ -77,6 +77,13 @@ img {
 }
 
 /* Research section */
+.research-img {
+  max-width: 300px;
+  max-height: 200px;
+  height: auto;
+  width: auto;
+}
+
 .research_img_cell img.research_img {
   max-width: 300px;
   max-height: 200px;

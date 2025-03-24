@@ -10,6 +10,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta name="msvalidate.01" content="E24D5EAA25B6222F340CB16DC5C713D1" />
 
+  <!-- Preload critical resources -->
+  <link rel="preload" href="/vendor/css/bootstrap.min.css" as="style">
+  <link rel="preload" href="/vendor/css/font-awesome.min.css" as="style">
+  <link rel="preload" href="/css/styles.css" as="style">
+  
   <link rel="alternate" type="application/rss+xml" href="/atom.xml" />
 
   <link href="/vendor/css/bootstrap.min.css" rel="stylesheet">
@@ -19,57 +24,15 @@
 
   <link rel="shortcut icon" type="image/x-icon" href="/images/myfavicon.ico">
 
-  <style>
-    .research-img {
-      max-width: 300px;
-      max-height: 200px;
-      height: auto;
-      width: auto;
-    }
-    .social-icons {
-      font-size: 1.4em;
-    }
-    .bio-header {
-      font-size: 4em;
-      color: #4582ec;
-      font-weight: bold;
-      padding-top: 0.3em;
-      padding-bottom: 0.3em;
-    }
-    .profile-img {
-      border-radius: 20px;
-      margin: 10px;
-      max-width: none;
-    }
-    .show-more-section {
-      margin: 0 -15px;
-    }
-    .show-more-btn {
-      text-align: center;
-    }
-    .show-more-container {
-      margin-top: 20px;
-      margin-bottom: 20px;
-    }
-    .research-section {
-      margin: 0 -15px;
-    }
-    .news-section {
-      display: block;
-    }
-    .section-spacer {
-      margin-top: 30px;
-    }
-  </style>
+  <!-- Moved inline styles to styles.css -->
 
+  <!-- Async loading of analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-105598606-1"></script>
   <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-    ga('create', 'UA-105598606-1', 'auto');
-    ga('send', 'pageview');
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-105598606-1');
   </script>
 </head>
 
@@ -1229,9 +1192,10 @@
     </div> -->
   </div>
 
-  <script src="/vendor/js/jquery.min.js"></script>
-  <script src="/vendor/js/bootstrap.min.js"></script>
-  <script src="/js/main.js"></script>
+  <!-- JavaScript at the end of body -->
+  <script defer src="/vendor/js/jquery.min.js"></script>
+  <script defer src="/vendor/js/bootstrap.min.js"></script>
+  <script defer src="/js/main.js"></script>
 </body>
 
 </html>
