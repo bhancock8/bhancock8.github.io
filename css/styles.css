@@ -1,0 +1,247 @@
+/* Base styles */
+body {
+  padding-top: 70px;
+  height: 100%;
+  font-family: 'Roboto', sans-serif;
+  color: #444;
+}
+
+/* Header and navigation */
+.navbar {
+  background-color: #DFF2FF;
+}
+
+.navbar .navbar-nav > li > a {
+  padding: 8px 6px !important;
+  background-color: #DFF2FF;
+}
+
+.social-icons {
+  font-size: 1.4em;
+}
+
+/* Bio section */
+.bio_header {
+  text-align: center;
+  line-height: 1;
+  color: rgb(98, 98, 98);
+}
+
+.bio-header {
+  font-size: 4em;
+  color: #4582ec;
+  font-weight: bold;
+  padding-top: 0.3em;
+  padding-bottom: 0.3em;
+  text-align: center;
+}
+
+.bio-role {
+  font-size: 1.25em;
+  margin-bottom: 1em;
+  text-align: center;
+}
+
+.bio_body {
+  text-align: left;
+  font-weight: 300;
+  font-size: 1.2em;
+  margin-top: 1.5em;
+  padding-bottom: 0.3em;
+  color: rgb(98, 98, 98);
+}
+
+.profile-img {
+  border-radius: 20px;
+  margin: 10px;
+  max-width: none;
+}
+
+/* Section headers */
+.section_header {
+  color: rgb(98, 98, 98);
+}
+
+/* Common elements */
+.vcenter {
+  display: inline-block;
+  vertical-align: middle;
+  float: none;
+}
+
+img {
+  margin: 3px;
+  padding: 3px;
+  border: 2px solid #eeeeee;
+  max-width: 100%;
+}
+
+/* Research section */
+.research_img_cell img.research_img {
+  max-width: 300px;
+  max-height: 200px;
+  height: auto;
+  width: auto;
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.research {
+  margin-bottom: 15px;
+}
+
+.research_img_cell {
+  width: 40%;
+  padding: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: 0;
+  margin-right: 0;
+  text-align: center;
+}
+
+.research_txt_cell {
+  text-align: top;
+  width: 60%;
+  padding-bottom: 20px;
+}
+
+.research_txt_title {
+  font-size: 1.15em;
+  font-weight: 150;
+  color: rgb(98, 98, 98);
+}
+
+.research_txt_body {
+  font-weight: 300;
+  color: rgb(98, 98, 98);
+}
+
+.research_links {
+  color: rgb(98, 98, 98);
+}
+
+.research_venue {
+  color: #090;
+}
+
+.research_award {
+  color: #D21919;
+}
+
+/* News section */
+.news_body {
+  text-align: left;
+  font-weight: 300;
+  font-size: 0.9em;
+  color: rgb(98, 98, 98);
+}
+
+.news_body ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Affiliation section */
+.affiliation {
+  padding-bottom: 20px;
+}
+
+.affiliation_title {
+  color: rgb(98, 98, 98);
+  font-weight: bold;
+  font-size: 1.0em;
+}
+
+.affiliation_body {
+  color: rgb(98, 98, 98);
+  font-weight: 300;
+  font-size: 0.85em;
+}
+
+.logo {
+  width: 80px;
+  height: 80px;
+  border: 0px;
+}
+
+/* Award section */
+.award {
+  padding-bottom: 5px;
+}
+
+.award_title {
+  font-size: 1.15em;
+  font-weight: 150;
+  color: rgb(98, 98, 98);
+}
+
+.award_body {
+  color: rgb(98, 98, 98);
+  font-weight: 300;
+}
+
+.award_links {
+  color: rgb(98, 98, 98);
+}
+
+.award_logo {
+  width: 80px;
+  height: 80px;
+  border: 0px;
+}
+
+/* Show more/less buttons */
+.btn-expand {
+  background-color: #4582ec;
+  margin-left: 5px;
+}
+
+[data-toggle="collapse"].collapsed .if-not-collapsed {
+  display: none;
+}
+
+[data-toggle="collapse"]:not(.collapsed) .if-collapsed {
+  display: none;
+}
+
+/* Additional utility classes */
+.show-more-section {
+  margin: 0 -15px;
+}
+
+.show-more-btn {
+  text-align: center;
+}
+
+.show-more-container {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.research-section {
+  margin: 0 -15px;
+}
+
+.news-section {
+  display: block;
+}
+
+.section-spacer {
+  margin-top: 30px;
+}
+
+/* Responsive styles */
+@media (max-width: 767px) {
+  .idxHdr {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .pubt {
+    text-align: center;
+  }
+} 
