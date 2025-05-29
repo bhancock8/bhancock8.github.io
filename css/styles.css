@@ -37,7 +37,7 @@ body {
 }
 
 .bio-role {
-  font-size: 1.25em;
+  font-size: 1.15em;
   margin-bottom: 1em;
   text-align: center;
 }
@@ -45,7 +45,7 @@ body {
 .bio_body {
   text-align: left;
   font-weight: 300;
-  font-size: 1.2em;
+  font-size: 1.15em;
   margin-top: 1.5em;
   padding-bottom: 0.3em;
   color: rgb(98, 98, 98);
